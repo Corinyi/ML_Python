@@ -4,7 +4,7 @@
 ### Base of Machine Learning and Deep Learning Using Python 
 
 
-<div style="text-align:center"> 성균관대학교 하계 도전학기(2020)</div>
+<center> 성균관대학교 하계 도전학기(2020)</center>
 
 
 ![screensh](./images/pythonmldl.jpg)
