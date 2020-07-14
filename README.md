@@ -49,39 +49,46 @@
 
 ### 2주차 
 
-    7. XOR 연산 학습 2
-        - enumerate()
-        인덱스와 내용을 한번에 넘겨줌. 
-    8. XOR 연산 학습 3
-        - dataframe
-        column 과 row 강 있고,  iloc를 이용해서 정렬 가능(ix라고 가르치지는데, 최근 pandas에서 사라짐)
-        이 예제에서는 0, 1 Column이 학습데이터가 되고, 2 가 label이 됨
-    9. scipy 1
-        - sparse 모듈
-        scipy에서 중요한 모듈
-        희소행렬을(0을 많이 포함한 2차웒 행렬)
+7. XOR 연산 학습 2
+    - enumerate()
+    인덱스와 내용을 한번에 넘겨줌. 
+8. XOR 연산 학습 3
+    - dataframe
+    column 과 row 강 있고,  iloc를 이용해서 정렬 가능(ix라고 가르치지는데, 최근 pandas에서 사라짐)
+    이 예제에서는 0, 1 Column이 학습데이터가 되고, 2 가 label이 됨
+9. scipy 1
+    - sparse 모듈
+    scipy에서 중요한 모듈
+    희소행렬을(0을 많이 포함한 2차웒 행렬)
 
-        - ones 모듈
-        ones(10) 1로 10개를 채우는 함수
-        사용 예
-        1. numpy.ones(7)
-        2. numpy.zeros(8)
-        3. numpy.ones((2,3))
+    - ones 모듈
+    ones(10) 1로 10개를 채우는 함수
+    사용 예
+    1. numpy.ones(7)
+    2. numpy.zeros(8)
+    3. numpy.ones((2,3))
 
-        - eye 모듈
-        numpy에서 특수행렬을 만드는 함수
-        eye(N, M= , K= , dtype) 2차원 배열을 항등 및 대각 행렬을 만들 수 있다.
-        N= 행의 수, M= 열의 수,  K= 대각의 초기 위치
+    - eye 모듈
+    numpy에서 특수행렬을 만드는 함수
+    eye(N, M= , K= , dtype) 2차원 배열을 항등 및 대각 행렬을 만들 수 있다.
+    N= 행의 수, M= 열의 수,  K= 대각의 초기 위치
 
-        - diag() 함수
-        정방행렬에서 대각 요소만 추출해서 벡터를 만듬
-        벡터요소를 대각요소로 하는 정방행렬을 만들기도 함
-        diag(v, k=) k는 시작 위치
-        np.diag(np.diag(x))
+    - diag() 함수
+    정방행렬에서 대각 요소만 추출해서 벡터를 만듬
+    벡터요소를 대각요소로 하는 정방행렬을 만들기도 함
+    diag(v, k=) k는 시작 위치
+    np.diag(np.diag(x))
 
-    10. scipy 2
-    11. matplotlib
-    12. scikit-learn의 데이터셋 소
+10. scipy 2
+    - scipy.sparse 함수
+    scipy에서 scikit-learn 알고리즘을 구현할 때, 많이 사용하는 모듈
+    - 희소행렬(Sparse matrix): 0을 많이 포함한 2차원 배열
+    - sparse.csr_matrix()
+    0이 아닌 원소만 저장하는 method, 순서쌍으로 행렬의 값을 나타내줌
+    - COO 포멧(Coordinate)
+    
+11. matplotlib
+12. scikit-learn의 데이터셋 소
 
 ### 3주차 
 
