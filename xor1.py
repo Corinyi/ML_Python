@@ -29,7 +29,8 @@ print("예측결과 :", pre)
 
 ok = 0; total =0
 for idx, answer in enumerate(label): #enumerate 여러 변수 나열
-	p = pre[idx
-	if p == answer  ok += 1
+	p = pre[idx]
+	if p == answer :
+		ok += 1
 	total += 1
 print("정확도:", ok, "/", total, "=", ok/total)
