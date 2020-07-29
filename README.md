@@ -115,6 +115,11 @@
         sklearn.model_selection 에 있음
 14. 붓꽃 품종 분류기 1
 15. 붓꽃 품종 분류기 2
+    - scikit-learn에서는 항상 2차원 배열
+    - 정확도 판별
+    numpy 에 있는 mean  값을 이용해서 정확도 판별 가능
+    또는 knn 의 score method를 이용해도 가능
+
 16. 붓꽃 품종 분류기 3
 
 ### 4주차
